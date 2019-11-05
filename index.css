@@ -104,7 +104,7 @@ li a:hover,
 p a:active,
 p a:focus,
 p a:hover {
-    background-color: #b4e7f8
+    background-color: #98D0CB
 }
 
 .marg-bot-0 {
@@ -182,7 +182,7 @@ a .btn:visited {
 }
 
 .btn.btn-primary {
-    background: #75c9b9;
+    background: #e18e7f;
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #fff !important
 }
@@ -190,7 +190,7 @@ a .btn:visited {
 .btn.btn-primary:active,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-    background: #f6c574
+    background: #b55f4b
 }
 
 .btn.btn-secondary {
