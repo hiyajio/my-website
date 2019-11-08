@@ -181,15 +181,15 @@ a .btn:visited {
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1)
 }
 
-.btn.btn-primary {
+.btn.btn-info {
     background: #e18e7f;
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #fff !important
 }
 
-.btn.btn-primary:active,
-.btn.btn-primary:focus,
-.btn.btn-primary:hover {
+.btn.btn-info:active,
+.btn.btn-info:focus,
+.btn.btn-info:hover {
     background: #b55f4b
 }
 

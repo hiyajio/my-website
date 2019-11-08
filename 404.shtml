@@ -157,7 +157,7 @@
             <h4>Oops! The page you were looking for does not exist.</h4>
             <p>Please check the URL and refresh the page. If you think this is a mistake, please <a href="mailto:jbuenvia@nd.edu">contact me.</a>
           </div>
-          <a href="/" class="btn btn-primary">
+          <a href="/" class="btn btn-info">
           ← Back to home
           </a>
         </div>
@@ -206,7 +206,7 @@
             <textarea type="text" name="body" class="form-control" placeholder="Message..." required="true"></textarea>
           </div>
           <div class="modal-footer">
-            <input type="submit" class="btn btn-primary" value="Send" id="contactFormButton"></input>
+            <input type="submit" class="btn btn-info" value="Send" id="contactFormButton"></input>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">
               Cancel
             </button>
