@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150731209-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150731209-1');
+  </script>
+
+  <!-- Config meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Jio Buenviaje">
+
+  <!-- Open graph tags and twitter tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jio Buenviaje">
+  <meta property="og:url" content="jbuenviaje.com" />
+  <meta property="twitter:url" content="jbuenviaje.com" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-256x256.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="/ms-icon-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Set the page title -->
+  <title>Jio Buenviaje</title>
+  <meta property="og:title" content="Jio Buenviaje">
+  <meta property="twitter:title" content="Jio Buenviaje">
+
+  <!-- Set the page description -->
+  <meta name="description"
+    content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.">
+  <meta property="og:description"
+    content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.">
+  <meta property="twitter:description"
+    content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.">
+
+  <!-- Set the page keywords -->
+  <meta name="keywords"
+    content="juan,sergio,jio,juansergio,juansergiobuenviaje,jiobuenviaje,notredame,nd,freelance,web,webdev,mobile,iosdevelopment,ios,android,androiddevelopment,website,cs,filipino,southbend,indiana,university,philippines,philippine,student,react,javascript,node,developer,dev,flutter,dart,embedded,arduino,contact,new,york,city,NY,youthhack,cbs">
+
+  <!-- Set the page image if there is one -->
+  <meta property="og:image" content="/img/bg.jpg">
+  <meta property="twitter:image" content="/img/bg.jpg">
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Preloader-->
+  <!-- <div id="preloader">
+    <div id="status">
+      <img alt="logo" src="images/logo-big.png">
+      <h4 class="moment"></h4>
+    </div>
+  </div> -->
+
+  <!-- Wrapper div for the application -->
+  <div class="app">
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+      <div class="nav">
+        <div id="overview">
+          <a href="/" class="logo-wrapper">
+            <img src="/img/logo-02.svg" class="img-fluid logo alt hidden-on-desktop" alt="logo" />
+            <img src="/img/logo-01.svg" class="img-fluid logo" alt="logo" />
+          </a>
+
+          <!-- <div id="toggle">
+            <span class="bar" id="first"></span>
+            <span class="bar" id="second"></span>
+            <span class="bar" id="third"></span>
+          </div> -->
+        </div>
+
+        <div id="menu">
+          <div class="space-3 hidden-on-desktop"></div>
+
+          <div class="links">
+            <a href="#home" class="active">Home</a>
+            <a href="#education" class="">Education</a>
+            <a href="#experience" class="">Experience</a>
+            <a href="#technologies" class="">Technologies</a>
+            <a href="#extracurriculars" class="">Extracurriculars</a>
+            <a href="#projects" class="">Projects</a>
+            <a href="mailto:jbuenvia@nd.edu" class="">Contact</a>
+            <!-- <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
+              Contact
+            </a>
+            <a href="/contact" id="contact-link">
+              Contact
+            </a> -->
+          </div>
+
+          <div class="social">
+            <a href="https://linkedin.com/in/lockjio" target="_BLANK">
+              <img src="/img/logos/linkedin.svg" alt="Jio Buenviaje on LinkedIn">
+            </a>
+            <a href="https://twitter.com/lockjio" target="_BLANK">
+              <img src="/img/logos/twitter.svg" alt="Jio Buenviaje on Twitter">
+            </a>
+            <a href="https://github.com/lockjio" target="_BLANK">
+              <img src="/img/logos/github.svg" alt="Jio Buenviaje on GitHub">
+            </a>
+            <a href="https://instagram.com/lockjio" target="_BLANK">
+              <img src="/img/logos/instagram.svg" alt="Jio Buenviaje on Instagram">
+            </a>
+            <a href="mailto:jbuenvia@nd.edu">
+              <img src="/img/logos/email.svg" alt="Jio Buenviaje on Email">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-space hidden-on-desktop"></div>
+    <!-- App content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div>
+          <div class="card">
+            <div class="four">
+                <img src="img/404.png" class="four-img" alt="404 error">
+            </div>
+            <h4>Oops! The page you were looking for does not exist.</h4>
+            <p>Please check the URL and refresh the page. If you think this is a mistake, please <a href="mailto:jbuenvia@nd.edu">contact me.</a>
+          </div>
+          <a href="/" class="btn btn-primary">
+          ← Back to home
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid">
+      <p class="right">
+        Juan Sergio Buenviaje &copy; 2019. All rights reserved.
+      </p>
+      <p id="scroll-to-top">
+        Scroll to top ↑
+      </p>
+    </div>
+  </footer>
+  <!-- Contact form -->
+  <div class="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form id="contactForm">
+          <div class="modal-body">
+            <!-- Render a div for error and success messages -->
+            <div id="message"></div>
+            <!-- Render the form fields -->
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First"
+                  required="true"></input>
+              </div>
+              <div class="col-12 col-md-6">
+                <input type="text" name="lastName" class="form-control" placeholder="Last" required="true"></input>
+              </div>
+            </div>
+            <input type="email" name="email" class="form-control" placeholder="example@gmail.com"
+              required="true"></input>
+            <input type="text" name="subject" class="form-control" placeholder="Subject..." required="true"></input>
+            <textarea type="text" name="body" class="form-control" placeholder="Message..." required="true"></textarea>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" class="btn btn-primary" value="Send" id="contactFormButton"></input>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Javascripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+
+  <!-- Site-specific scripts -->
+  <!-- <script src="js/preloader.js"></script> -->
+  <script src="js/nav-toggle.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/scroll-to-top.js"></script>
+  <script src="js/modal-trigger.js"></script>
+  <script src="js/modal-autofocus.js"></script>
+
+  <script>
+    // while (typeof $ == 'undefined');
+    $(document).ready(function () {
+      $('#carousel').find('.carousel-item')
+        .first()
+        .addClass('active');
+    });
+  </script>
+</body>
+
+</html>

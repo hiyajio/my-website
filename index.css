@@ -1145,6 +1145,17 @@ hr {
     text-align: center
 }
 
+.four {
+    text-align: center;
+    display: block
+}
+
+.four-img {
+    max-width: 100%;
+    height: auto;
+    width: auto
+}
+
 .project {
     align-items: flex-end;
     border-radius: .2rem;
