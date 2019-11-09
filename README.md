@@ -14,7 +14,7 @@ Application developed in HTML, CSS (Bootstrap), and JavaScript. The app is hoste
 
 - [x] Add 404 error page
 - [ ] Add apps and websites to Projects section
-- [ ] Fix Contact Modal
+- [ ] Fix Contact modal
 - [ ] Optimize to be PWA
 - [ ] Convert CSS to SCSS/Sass
 - [ ] Convert to React App through Gatsby
