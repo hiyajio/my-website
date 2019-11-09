@@ -18,4 +18,4 @@ Application developed in HTML, CSS (Bootstrap), and JavaScript. The app is hoste
 - [ ] Optimize to be PWA
 - [ ] Convert CSS to SCSS/Sass
 - [ ] Convert to React App through Gatsby
-- [ ] Possibly change hosting to Netlify/Heroku/AWS
+- [ ] Possibly change hosting to Contentful + Netlify or Heroku/AWS
