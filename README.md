@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Website - HTML, CSS, JavaScript
 
 Application developed in HTML, CSS (Bootstrap), and JavaScript. The app is hosted in GoDaddy through cPanel Admin.
 
