@@ -13,7 +13,8 @@ Application developed in HTML, CSS (Bootstrap), and JavaScript. The app is hoste
 ### Planned Features
 
 - [x] Add 404 error page
-- [ ] Add apps and websites to Projects section
+- [x] Add apps to Projects section
+- [ ] Add websites to Projects section
 - [ ] Fix Contact modal
 - [ ] Optimize to be PWA
 - [ ] Convert CSS to SCSS/Sass
