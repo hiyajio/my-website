@@ -1,4 +1,4 @@
-# Personal Website :ocean:
+# Personal Website :philippines:
 
 Application developed in HTML, CSS (Bootstrap), and JavaScript. The app is hosted in GoDaddy through cPanel Admin.
 
