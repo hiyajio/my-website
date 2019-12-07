@@ -1244,24 +1244,13 @@ hr {
   }
 }
 
-body,
-html {
-  background: #fff;
-}
-
-h4.title {
-  margin-bottom: 1.5rem;
-  margin-top: calc(2.5rem + 2.5vh);
-  font-weight: bold;
-}
-
 .has-bg {
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
-.iphone-x {
+.mobile {
   position: relative;
   z-index: 1;
   height: 694px;
@@ -1275,13 +1264,14 @@ h4.title {
   transition: all 300ms ease;
 } */
 
-.iphone-x *,
-.iphone-x *::before,
-.iphone-x *::after {
+.mobile *,
+.mobile *::before,
+.mobile *::after {
   box-sizing: border-box;
   display: block;
 }
-.iphone-x .side {
+
+.mobile .side {
   background: #383838;
   border-radius: 54px;
   height: 694px;
@@ -1289,7 +1279,8 @@ h4.title {
   width: 342px;
   z-index: 1;
 }
-.iphone-x .screen {
+
+.mobile .screen {
   background: #383838;
   background-position: center center;
   background-size: cover;
@@ -1302,12 +1293,14 @@ h4.title {
   z-index: 198;
   overflow: hidden;
 }
+
 .screen img {
   height: 100%;
   width: 100%;
 }
-.iphone-x .line::after,
-.iphone-x .line::before {
+
+.mobile .line::after,
+.mobile .line::before {
   content: "";
   position: absolute;
   border: solid rgba(68, 68, 68, 0.25);
@@ -1317,13 +1310,16 @@ h4.title {
   width: 100%;
   z-index: 9;
 }
-.iphone-x .line::after {
+
+.mobile .line::after {
   top: 68px;
 }
-.iphone-x .line::before {
+
+.mobile .line::before {
   bottom: 68px;
 }
-.iphone-x .header {
+
+.mobile .header {
   background: #383838;
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
@@ -1335,7 +1331,8 @@ h4.title {
   width: 164px;
   z-index: 199;
 }
-.iphone-x .volume-button {
+
+.mobile .volume-button {
   background: #383838;
   height: 26px;
   left: -2px;
@@ -1343,8 +1340,9 @@ h4.title {
   top: 92px;
   width: 3px;
 }
-.iphone-x .volume-button::after,
-.iphone-x .volume-button::before {
+
+.mobile .volume-button::after,
+.mobile .volume-button::before {
   content: "";
   position: absolute;
   background: #383838;
@@ -1352,13 +1350,16 @@ h4.title {
   left: 0;
   width: 3px;
 }
-.iphone-x .volume-button::after {
+
+.mobile .volume-button::after {
   top: 48px;
 }
-.iphone-x .volume-button::before {
+
+.mobile .volume-button::before {
   top: 112px;
 }
-.iphone-x .power-button {
+
+.mobile .power-button {
   background: #383838;
   height: 80px;
   right: -2px;
