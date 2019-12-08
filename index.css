@@ -819,6 +819,12 @@ textarea.form-control {
   border-width: 2px;
 }
 
+@media screen and (max-width: 767px) {
+  .col-1-format {
+    padding-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 594px) {
   .card-columns {
     column-count: 1;
