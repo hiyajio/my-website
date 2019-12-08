@@ -6,9 +6,17 @@ $color_5: #fff;
 $color_6: #a0a0a0;
 $color_7: #c3d0e5;
 $color_8: #9e9e9e;
+$color_9: #41597f;
+$color_10: #b4e7f8;
+$color_11: #e18e7f;
+$color_12: #b55f4b;
+$color_13: #dbdbe0;
+$color_14: #ff0;
+$color_15: #e3f6fc;
+$color_16: #f4f4f7;
+$color_17: #383838;
 $font_family_1: "Open Sans", Roboto, sans-serif;
 $font_family_2: monospace;
-$background_color_1: #b4e7f8;
 
 /* .mobile-screenshot:hover,
 .system-screenshot:hover,
@@ -108,23 +116,23 @@ li {
   font-size: 0.875rem;
   a {
     -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    -webkit-box-shadow: inset 0 -4px 0 #b4e7f8;
+    -webkit-box-shadow: inset 0 -4px 0 $color_10;
     -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    border-bottom: 2px solid #b4e7f8;
-    box-shadow: inset 0 -4px 0 #b4e7f8;
+    border-bottom: 2px solid $color_10;
+    box-shadow: inset 0 -4px 0 $color_10;
     color: $color_4 !important;
     overflow-wrap: break-word;
     transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
     word-break: break-word;
     word-wrap: break-word;
     &:active {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
     &:focus {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
     &:hover {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
   }
 }
@@ -133,23 +141,23 @@ p {
   font-size: 0.875rem;
   a {
     -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    -webkit-box-shadow: inset 0 -4px 0 #b4e7f8;
+    -webkit-box-shadow: inset 0 -4px 0 $color_10;
     -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    border-bottom: 2px solid #b4e7f8;
-    box-shadow: inset 0 -4px 0 #b4e7f8;
+    border-bottom: 2px solid $color_10;
+    box-shadow: inset 0 -4px 0 $color_10;
     color: $color_4 !important;
     overflow-wrap: break-word;
     transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
     word-break: break-word;
     word-wrap: break-word;
     &:active {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
     &:focus {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
     &:hover {
-      background-color: $background_color_1;
+      background-color: $color_10;
     }
   }
 }
@@ -254,17 +262,17 @@ a.underline {
 }
 
 .btn.btn-info {
-  background: #e18e7f;
+  background: $color_11;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: $color_5 !important;
   &:active {
-    background: #b55f4b;
+    background: $color_12;
   }
   &:focus {
-    background: #b55f4b;
+    background: $color_12;
   }
   &:hover {
-    background: #b55f4b;
+    background: $color_12;
   }
 }
 
@@ -293,7 +301,7 @@ a.underline {
 
 .content {
   .card {
-    background: #fff;
+    background: $color_5;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem;
     margin-bottom: 1rem;
@@ -414,14 +422,14 @@ a.underline {
   padding-top: 0.5rem;
   text-align: center;
   .line-behind {
-    background: #dbdbe0;
+    background: $color_13;
     height: 1px;
     position: relative;
     transform: translateY(0.875rem);
     width: 100%;
   }
   p {
-    background: #fff;
+    background: $color_5;
     color: $color_6;
     display: inline-block;
     font-size: 0.75rem;
@@ -523,7 +531,7 @@ footer {
   width: 100vw;
   z-index: 0;
   div {
-    background: #dbdbe0;
+    background: $color_13;
     position: fixed;
     transition: background 0.2s ease;
   }
@@ -555,7 +563,7 @@ footer {
 }
 
 .modal-backdrop {
-  background: #fff;
+  background: $color_5;
 }
 
 .form-control {
@@ -569,10 +577,10 @@ footer {
     border: 2px solid rgba(0, 0, 0, 0.2);
   }
   &:active {
-    border: 2px solid #41597f;
+    border: 2px solid $color_9;
   }
   &:focus {
-    border: 2px solid #41597f;
+    border: 2px solid $color_9;
   }
 }
 
@@ -616,11 +624,11 @@ textarea.form-control {
 }
 
 .highlight {
-  background: #ff0;
+  background: $color_14;
 }
 
 .topic {
-  background: #e3f6fc;
+  background: $color_15;
   border-radius: 0.4rem;
   color: $color_1;
   display: inline-block;
@@ -637,7 +645,7 @@ a.topic {
   box-shadow: none;
   color: $color_1 !important;
   &:hover {
-    background: #b4e7f8;
+    background: $color_10;
   }
 }
 
@@ -704,7 +712,7 @@ hr {
     line-height: 1.75;
   }
   .code {
-    background: #f4f4f7;
+    background: $color_16;
     border-radius: 0.2rem;
     margin-bottom: 1rem;
     overflow-x: scroll;
@@ -716,12 +724,12 @@ hr {
     }
   }
   code {
-    background: #f4f4f7;
+    background: $color_16;
     border-radius: 0.2rem;
     padding: 0 0.2rem;
   }
   .blockquote {
-    border-left: 4px solid #f4f4f7;
+    border-left: 4px solid $color_16;
     color: $color_3;
     font-style: italic;
     padding: 0.25rem 0 0.25rem 1rem;
@@ -792,7 +800,7 @@ hr {
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   .top {
-    background: #dbdbe0;
+    background: $color_13;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem 0.2rem 0 0;
     height: 2.25rem;
@@ -808,7 +816,7 @@ hr {
     }
   }
   .body {
-    background: #fff;
+    background: $color_5;
     border: 1px solid rgba(0, 0, 0, 0.175);
     border-radius: 0 0 0.2rem 0.2rem;
     border-top: 0 solid transparent;
@@ -817,7 +825,7 @@ hr {
 }
 
 .browser-screenshot {
-  background: #dbdbe0;
+  background: $color_13;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -838,7 +846,7 @@ hr {
 }
 
 .system-screenshot {
-  background: #fff;
+  background: $color_5;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -956,7 +964,7 @@ hr {
     }
   }
   .side {
-    background: #383838;
+    background: $color_17;
     border-radius: 54px;
     height: 694px;
     padding: 15px 22px;
@@ -964,7 +972,7 @@ hr {
     z-index: 1;
   }
   .screen {
-    background: #383838;
+    background: $color_17;
     background-position: center center;
     background-size: cover;
     border-radius: 33px;
@@ -1001,7 +1009,7 @@ hr {
     }
   }
   .header {
-    background: #383838;
+    background: $color_17;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
     height: 24px;
@@ -1013,7 +1021,7 @@ hr {
     z-index: 199;
   }
   .volume-button {
-    background: #383838;
+    background: $color_17;
     height: 26px;
     left: -2px;
     position: absolute;
@@ -1022,7 +1030,7 @@ hr {
     &::after {
       content: "";
       position: absolute;
-      background: #383838;
+      background: $color_17;
       height: 50px;
       left: 0;
       width: 3px;
@@ -1031,7 +1039,7 @@ hr {
     &::before {
       content: "";
       position: absolute;
-      background: #383838;
+      background: $color_17;
       height: 50px;
       left: 0;
       width: 3px;
@@ -1039,7 +1047,7 @@ hr {
     }
   }
   .power-button {
-    background: #383838;
+    background: $color_17;
     height: 80px;
     right: -2px;
     position: absolute;
@@ -1235,7 +1243,7 @@ hr {
     width: 100%;
     z-index: 10;
     #overview {
-      background: #fff;
+      background: $color_5;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       display: block;
       padding: 0.5rem 1rem;
@@ -1254,7 +1262,7 @@ hr {
       }
     }
     #overview.active {
-      background: #41597f;
+      background: $color_9;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       .logo.alt {
         opacity: 1;
@@ -1267,7 +1275,7 @@ hr {
       top: calc(1rem + 3px);
       z-index: 1;
       span {
-        background: #000;
+        background: $color_4;
         display: block;
         height: 2px;
         margin-bottom: 3px;
@@ -1281,7 +1289,7 @@ hr {
       }
     }
     #menu {
-      background: #fff;
+      background: $color_5;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       height: 0;
       left: 0;
@@ -1294,7 +1302,7 @@ hr {
       z-index: 1;
     }
     #menu.active {
-      background: #41597f;
+      background: $color_9;
       height: 100vh;
     }
     .social {
