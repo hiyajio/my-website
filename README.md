@@ -1,6 +1,6 @@
 # Personal Website :philippines:
 
-Application developed in HTML, SCSS (with Bootstrap), and JavaScript. The app is hosted in GoDaddy through cPanel Admin.
+Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). The app is hosted on GoDaddy through cPanel.
 
 ---
 
