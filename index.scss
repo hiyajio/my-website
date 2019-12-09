@@ -1,19 +1,19 @@
-$color_1: #3e64a0;
-$color_2: #304d7b;
-$color_3: #848484;
+$link: #3e64a0;
+$link_hover: #304d7b;
+$tertiary_font: #848484;
 $bl: #000;
 $wh: #fff;
-$color_6: #a0a0a0;
-$color_7: #c3d0e5;
-$color_8: #9e9e9e;
-$color_9: #41597f;
-$color_10: #b4e7f8;
-$color_11: #e18e7f;
-$color_12: #b55f4b;
-$color_13: #dbdbe0;
+$secondary_font: #a0a0a0;
+$links_hover: #c3d0e5;
+$caption: #9e9e9e;
+$form_hover: #41597f;
+$underline: #b4e7f8;
+$primary_accent: #e18e7f;
+$button_hover: #b55f4b;
+$browser_tab: #dbdbe0;
 $highlight: #ff0;
-$color_15: #e3f6fc;
-$color_16: #f4f4f7;
+$topic: #e3f6fc;
+$code: #f4f4f7;
 $iphone: #383838;
 $main_font: "Open Sans", Roboto, sans-serif;
 $backup_font: monospace;
@@ -59,24 +59,24 @@ h6 {
 
 a {
   font-size: 0.875rem;
-  color: $color_1;
+  color: $link;
   cursor: pointer;
   text-decoration: underline;
   text-decoration: none;
   &:active {
-    color: $color_2;
+    color: $link_hover;
     text-decoration: none;
   }
   &:focus {
-    color: $color_2;
+    color: $link_hover;
     text-decoration: none;
   }
   &:hover {
-    color: $color_2;
+    color: $link_hover;
     text-decoration: none;
   }
   &:visited {
-    color: $color_1;
+    color: $link;
     text-decoration: none;
   }
   .btn {
@@ -95,19 +95,19 @@ a {
     }
   }
   &:active.topic {
-    color: $color_1 !important;
+    color: $link !important;
     text-decoration: none;
   }
   &:focus.topic {
-    color: $color_1 !important;
+    color: $link !important;
     text-decoration: none;
   }
   &:hover.topic {
-    color: $color_1 !important;
+    color: $link !important;
     text-decoration: none;
   }
   &:visited.topic {
-    color: $color_1 !important;
+    color: $link !important;
     text-decoration: none;
   }
 }
@@ -116,23 +116,23 @@ li {
   font-size: 0.875rem;
   a {
     -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    -webkit-box-shadow: inset 0 -4px 0 $color_10;
+    -webkit-box-shadow: inset 0 -4px 0 $underline;
     -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    border-bottom: 2px solid $color_10;
-    box-shadow: inset 0 -4px 0 $color_10;
+    border-bottom: 2px solid $underline;
+    box-shadow: inset 0 -4px 0 $underline;
     color: $bl !important;
     overflow-wrap: break-word;
     transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
     word-break: break-word;
     word-wrap: break-word;
     &:active {
-      background-color: $color_10;
+      background-color: $underline;
     }
     &:focus {
-      background-color: $color_10;
+      background-color: $underline;
     }
     &:hover {
-      background-color: $color_10;
+      background-color: $underline;
     }
   }
 }
@@ -141,44 +141,44 @@ p {
   font-size: 0.875rem;
   a {
     -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    -webkit-box-shadow: inset 0 -4px 0 $color_10;
+    -webkit-box-shadow: inset 0 -4px 0 $underline;
     -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-    border-bottom: 2px solid $color_10;
-    box-shadow: inset 0 -4px 0 $color_10;
+    border-bottom: 2px solid $underline;
+    box-shadow: inset 0 -4px 0 $underline;
     color: $bl !important;
     overflow-wrap: break-word;
     transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
     word-break: break-word;
     word-wrap: break-word;
     &:active {
-      background-color: $color_10;
+      background-color: $underline;
     }
     &:focus {
-      background-color: $color_10;
+      background-color: $underline;
     }
     &:hover {
-      background-color: $color_10;
+      background-color: $underline;
     }
   }
 }
 
 .gray-text {
-  color: $color_3;
+  color: $tertiary_font;
 }
 
 .gray-texta {
-  color: $color_3;
+  color: $tertiary_font;
   &:active {
-    color: $color_3;
+    color: $tertiary_font;
   }
   &:focus {
-    color: $color_3;
+    color: $tertiary_font;
   }
   &:hover {
-    color: $color_3;
+    color: $tertiary_font;
   }
   &:visited {
-    color: $color_3;
+    color: $tertiary_font;
   }
 }
 
@@ -262,17 +262,17 @@ a.underline {
 }
 
 .btn.btn-info {
-  background: $color_11;
+  background: $primary_accent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: $wh !important;
   &:active {
-    background: $color_12;
+    background: $button_hover;
   }
   &:focus {
-    background: $color_12;
+    background: $button_hover;
   }
   &:hover {
-    background: $color_12;
+    background: $button_hover;
   }
 }
 
@@ -422,7 +422,7 @@ a.underline {
   padding-top: 0.5rem;
   text-align: center;
   .line-behind {
-    background: $color_13;
+    background: $browser_tab;
     height: 1px;
     position: relative;
     transform: translateY(0.875rem);
@@ -430,7 +430,7 @@ a.underline {
   }
   p {
     background: $wh;
-    color: $color_6;
+    color: $secondary_font;
     display: inline-block;
     font-size: 0.75rem;
     padding: 0 0.5rem;
@@ -478,7 +478,7 @@ a.underline {
     width: 100%;
     a {
       clear: left;
-      color: $color_3 !important;
+      color: $tertiary_font !important;
       display: block;
       margin-bottom: 0.5rem;
       text-decoration: none;
@@ -506,7 +506,7 @@ footer {
   position: relative;
   z-index: 1;
   p {
-    color: $color_6;
+    color: $secondary_font;
     font-size: 0.75rem;
     line-height: 1;
     margin-bottom: 0;
@@ -531,7 +531,7 @@ footer {
   width: 100vw;
   z-index: 0;
   div {
-    background: $color_13;
+    background: $browser_tab;
     position: fixed;
     transition: background 0.2s ease;
   }
@@ -577,10 +577,10 @@ footer {
     border: 2px solid rgba(0, 0, 0, 0.2);
   }
   &:active {
-    border: 2px solid $color_9;
+    border: 2px solid $form_hover;
   }
   &:focus {
-    border: 2px solid $color_9;
+    border: 2px solid $form_hover;
   }
 }
 
@@ -593,26 +593,26 @@ textarea.form-control {
 }
 
 .caption {
-  color: $color_8 !important;
+  color: $caption !important;
   font-family: $main_font;
   font-size: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
   width: 100%;
   a {
-    color: $color_8 !important;
+    color: $caption !important;
     font-size: 0.75rem;
     &:visited {
-      color: $color_8 !important;
+      color: $caption !important;
     }
     &:active {
-      color: $color_3;
+      color: $tertiary_font;
     }
     &:focus {
-      color: $color_3;
+      color: $tertiary_font;
     }
     &:hover {
-      color: $color_3;
+      color: $tertiary_font;
     }
   }
 }
@@ -628,9 +628,9 @@ textarea.form-control {
 }
 
 .topic {
-  background: $color_15;
+  background: $topic;
   border-radius: 0.4rem;
-  color: $color_1;
+  color: $link;
   display: inline-block;
   font-size: 0.875rem;
   margin-bottom: 0.4rem;
@@ -643,9 +643,9 @@ textarea.form-control {
 a.topic {
   border: 0;
   box-shadow: none;
-  color: $color_1 !important;
+  color: $link !important;
   &:hover {
-    background: $color_10;
+    background: $underline;
   }
 }
 
@@ -712,7 +712,7 @@ hr {
     line-height: 1.75;
   }
   .code {
-    background: $color_16;
+    background: $code;
     border-radius: 0.2rem;
     margin-bottom: 1rem;
     overflow-x: scroll;
@@ -724,13 +724,13 @@ hr {
     }
   }
   code {
-    background: $color_16;
+    background: $code;
     border-radius: 0.2rem;
     padding: 0 0.2rem;
   }
   .blockquote {
-    border-left: 4px solid $color_16;
-    color: $color_3;
+    border-left: 4px solid $code;
+    color: $tertiary_font;
     font-style: italic;
     padding: 0.25rem 0 0.25rem 1rem;
     .author {
@@ -800,7 +800,7 @@ hr {
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   .top {
-    background: $color_13;
+    background: $browser_tab;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.2rem 0.2rem 0 0;
     height: 2.25rem;
@@ -825,7 +825,7 @@ hr {
 }
 
 .browser-screenshot {
-  background: $color_13;
+  background: $browser_tab;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -1262,7 +1262,7 @@ hr {
       }
     }
     #overview.active {
-      background: $color_9;
+      background: $form_hover;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       .logo.alt {
         opacity: 1;
@@ -1302,7 +1302,7 @@ hr {
       z-index: 1;
     }
     #menu.active {
-      background: $color_9;
+      background: $form_hover;
       height: 100vh;
     }
     .social {
@@ -1320,7 +1320,7 @@ hr {
     }
     .links {
       a {
-        color: $color_7 !important;
+        color: $links_hover !important;
         font-size: 1.5rem;
         margin-bottom: 1.5%;
         &:hover {
