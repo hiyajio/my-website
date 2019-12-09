@@ -10,7 +10,7 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 
 ---
 
-### Planned Features
+## Planned Features
 
 - [x] Add 404 error page
 - [x] Add apps to Projects section
