@@ -1,20 +1,19 @@
+$bl: #000;
+$iphone: #383838;
+$tertiary_font: #848484;
+$caption: #9e9e9e;
+$secondary_font: #a0a0a0;
+$browser_tab: #dbdbe0;
+$code: #f4f4f7;
+$wh: #fff;
+$topic: #e3f6fc;
+$underline: #b4e7f8;
 $link: #3e64a0;
 $link_hover: #304d7b;
-$tertiary_font: #848484;
-$bl: #000;
-$wh: #fff;
-$secondary_font: #a0a0a0;
-$links_hover: #c3d0e5;
-$caption: #9e9e9e;
-$form_hover: #41597f;
-$underline: #b4e7f8;
-$primary_accent: #e18e7f;
 $button_hover: #b55f4b;
-$browser_tab: #dbdbe0;
+$primary_accent: #e18e7f;
+$links_hover: #f5c9ae;
 $highlight: #ff0;
-$topic: #e3f6fc;
-$code: #f4f4f7;
-$iphone: #383838;
 $main_font: "Open Sans", Roboto, sans-serif;
 $backup_font: monospace;
 
@@ -582,10 +581,10 @@ footer {
     border: 0.125rem solid rgba(0, 0, 0, 0.2);
   }
   &:active {
-    border: 0.125rem solid $form_hover;
+    border: 0.125rem solid $primary_accent;
   }
   &:focus {
-    border: 0.125rem solid $form_hover;
+    border: 0.125rem solid $primary_accent;
   }
 }
 
@@ -1274,7 +1273,7 @@ hr {
       }
     }
     #overview.active {
-      background: $form_hover;
+      background: $primary_accent;
       border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
       .logo.alt {
         opacity: 1;
@@ -1297,7 +1296,7 @@ hr {
     }
     #toggle.active {
       span {
-        background: #c3d0e5;
+        background: $links_hover;
       }
     }
     #menu {
@@ -1314,7 +1313,7 @@ hr {
       z-index: 1;
     }
     #menu.active {
-      background: $form_hover;
+      background: $primary_accent;
       height: 100vh;
     }
     .social {

@@ -644,11 +644,11 @@ footer #scroll-to-top:hover {
 }
 
 .form-control:active {
-  border: 0.125rem solid #41597f;
+  border: 0.125rem solid #e18e7f;
 }
 
 .form-control:focus {
-  border: 0.125rem solid #41597f;
+  border: 0.125rem solid #e18e7f;
 }
 
 textarea.form-control {
@@ -1385,7 +1385,7 @@ hr {
     z-index: 1001;
   }
   .nav #overview.active {
-    background: #41597f;
+    background: #e18e7f;
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
   }
   .nav #overview.active .logo.alt {
@@ -1408,7 +1408,7 @@ hr {
     width: 1rem;
   }
   .nav #toggle.active span {
-    background: #c3d0e5;
+    background: #f5c9ae;
   }
   .nav #menu {
     background: #fff;
@@ -1425,7 +1425,7 @@ hr {
     z-index: 1;
   }
   .nav #menu.active {
-    background: #41597f;
+    background: #e18e7f;
     height: 100vh;
   }
   .nav .social {
@@ -1441,7 +1441,7 @@ hr {
     opacity: 0.75;
   }
   .nav .links a {
-    color: #c3d0e5 !important;
+    color: #f5c9ae !important;
     font-size: 1.5rem;
     margin-bottom: 1.5%;
   }
