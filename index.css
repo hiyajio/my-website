@@ -119,7 +119,7 @@ li a {
   -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   border-bottom: 0.125rem solid #b4e7f8;
   box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  color: #000 !important;
+  color: #000000 !important;
   overflow-wrap: break-word;
   transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   word-break: break-word;
@@ -148,7 +148,7 @@ p a {
   -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   border-bottom: 0.125rem solid #b4e7f8;
   box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  color: #000 !important;
+  color: #000000 !important;
   overflow-wrap: break-word;
   transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   word-break: break-word;
@@ -274,7 +274,7 @@ a.underline:hover {
 .btn.btn-info {
   background: #e18e7f;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 .btn.btn-info:active {
@@ -290,19 +290,19 @@ a.underline:hover {
 }
 
 .btn.btn-secondary {
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn.btn-secondary:active {
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn.btn-secondary:focus {
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn.btn-secondary:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 .buttons {
@@ -322,7 +322,7 @@ a.underline:hover {
 }
 
 .content .card {
-  background: #fff;
+  background: #ffffff;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   margin-bottom: 1rem;
@@ -395,24 +395,24 @@ a.underline:hover {
 }
 
 .content a .card {
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 
 .content a .card:active {
-  color: #000;
+  color: #000000;
 }
 
 .content a .card:focus {
-  color: #000;
+  color: #000000;
 }
 
 .content a .card:hover {
-  color: #000;
+  color: #000000;
 }
 
 .content a .card:visited {
-  color: #000;
+  color: #000000;
 }
 
 .profile-picture-wrapper {
@@ -475,7 +475,7 @@ a.underline:hover {
 }
 
 .text-line-behind p {
-  background: #fff;
+  background: #ffffff;
   color: #a0a0a0;
   display: inline-block;
   font-size: 0.75rem;
@@ -540,19 +540,19 @@ a.underline:hover {
 }
 
 .app .links a:active {
-  color: #000 !important;
+  color: #000000 !important;
 }
 
 .app .links a:focus {
-  color: #000 !important;
+  color: #000000 !important;
 }
 
 .app .links a:hover {
-  color: #000 !important;
+  color: #000000 !important;
 }
 
 .app .links a.active {
-  color: #000 !important;
+  color: #000000 !important;
 }
 
 footer {
@@ -627,7 +627,7 @@ footer #scroll-to-top:hover {
 }
 
 .modal-backdrop {
-  background: #fff;
+  background: #ffffff;
 }
 
 .form-control {
@@ -696,7 +696,7 @@ textarea.form-control {
 }
 
 .highlight {
-  background: #ff0;
+  background: #ffff00;
 }
 
 .topic {
@@ -913,7 +913,7 @@ hr {
 }
 
 .browser .body {
-  background: #fff;
+  background: #ffffff;
   border: 0.0625rem solid rgba(0, 0, 0, 0.175);
   border-radius: 0 0 0.2rem 0.2rem;
   border-top: 0 solid transparent;
@@ -949,7 +949,7 @@ hr {
 }
 
 .system-screenshot {
-  background: #fff;
+  background: #ffffff;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -999,7 +999,7 @@ hr {
   border-radius: 0.2rem;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
           box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
-  color: #fff;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1039,23 +1039,23 @@ hr {
 
 .project .text .btn {
   background: rgba(255, 255, 255, 0.3);
-  color: #fff;
+  color: #ffffff;
 }
 
 .project .text .btn:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 .project .text .btn:focus {
-  color: #fff;
+  color: #ffffff;
 }
 
 .project .text .btn:visited {
-  color: #fff;
+  color: #ffffff;
 }
 
 .project .text .btn:active {
-  color: #fff;
+  color: #ffffff;
 }
 
 .project .browser-screenshot {
@@ -1364,7 +1364,7 @@ hr {
     z-index: 10;
   }
   .nav #overview {
-    background: #fff;
+    background: #ffffff;
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
     display: block;
     padding: 0.5rem 1rem;
@@ -1399,7 +1399,7 @@ hr {
     z-index: 1;
   }
   .nav #toggle span {
-    background: #000;
+    background: #000000;
     display: block;
     height: 0.125rem;
     margin-bottom: 0.1875rem;
@@ -1411,7 +1411,7 @@ hr {
     background: #f5c9ae;
   }
   .nav #menu {
-    background: #fff;
+    background: #ffffff;
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
     height: 0;
     left: 0;
@@ -1433,7 +1433,7 @@ hr {
     position: relative;
   }
   .nav .social a img {
-    color: #fff;
+    color: #ffffff;
     -webkit-filter: invert(100%);
             filter: invert(100%);
     height: 1.4rem;
@@ -1446,10 +1446,10 @@ hr {
     margin-bottom: 1.5%;
   }
   .nav .links a:hover {
-    color: #fff !important;
+    color: #ffffff !important;
   }
   .nav .links a.active {
-    color: #fff !important;
+    color: #ffffff !important;
   }
   #contact-btn {
     display: none;
