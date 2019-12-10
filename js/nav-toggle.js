@@ -7,6 +7,7 @@ function updateClasses() {
 
 function handleToggle() {
   $("#toggle").click(updateClasses);
+  $("#menu a").click(updateClasses);
 }
 
 $(document).ready(handleToggle);
