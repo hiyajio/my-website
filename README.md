@@ -2,7 +2,7 @@
 
 Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). The app is hosted on GoDaddy through cPanel.
 
-![web-screenshot](https://user-images.githubusercontent.com/50670255/70693069-ac4ccb80-1c8a-11ea-8446-85a22b9b117b.png)
+![web-screenshot](https://user-images.githubusercontent.com/50670255/70833741-875d7300-1dc6-11ea-9695-10bd4e4186a8.png)
 
 ---
 
