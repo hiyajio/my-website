@@ -11,7 +11,6 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Add 404 error page
 - [x] Add apps to Projects section
 - [x] Convert CSS to SCSS/Sass
-- [ ] Refactor SCSS - Split to Multiple files
 - [ ] Add websites to Projects section
 - [ ] Add hamburger for mobile screen
 - [ ] Fix Contact modal
