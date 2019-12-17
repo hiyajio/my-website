@@ -17,3 +17,5 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [ ] Optimize to be PWA
 - [ ] Convert to React App through Gatsby
 - [ ] Possibly change hosting to Contentful + Netlify or Heroku/AWS
+
+##
