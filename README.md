@@ -11,8 +11,8 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Add 404 error page
 - [x] Add apps to Projects section
 - [x] Convert CSS to SCSS/Sass
+- [x] Add hamburger for mobile screen
 - [ ] Add websites to Projects section
-- [ ] Add hamburger for mobile screen
 - [ ] Fix Contact modal
 - [ ] Optimize to be PWA
 - [ ] Convert to React App through Gatsby
