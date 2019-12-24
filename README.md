@@ -12,10 +12,10 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Add apps to Projects section
 - [x] Convert CSS to SCSS/Sass
 - [x] Add hamburger for mobile screen
+- [x] Possibly change hosting to Contentful + Netlify or Heroku/AWS
+- [x] Convert to React App through Gatsby
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
 - [ ] Optimize to be PWA
-- [ ] Convert to React App through Gatsby
-- [ ] Possibly change hosting to Contentful + Netlify or Heroku/AWS
 
 ##
