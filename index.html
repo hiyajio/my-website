@@ -177,13 +177,12 @@
               <a href="#technologies" class="">Technologies</a>
               <a href="#extracurriculars" class="">Extracurriculars</a>
               <a href="#projects" class="">Projects</a>
-              <a href="mailto:jbuenvia@nd.edu" class="">Contact</a>
-              <!-- <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
+              <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
               Contact
             </a>
             <a href="/contact" id="contact-link">
               Contact
-            </a> -->
+            </a>
             </div>
 
             <div class="social">
@@ -276,7 +275,7 @@
               <a href="#projects" class="btn btn-info marg-bot-05">
                 View my projects
               </a>
-              <a href="mailto:jbuenvia@nd.edu" class="btn btn-info marg-bot-05">
+              <a data-toggle="modal" data-target="#contactModal" href="/contact" class="btn btn-info marg-bot-05">
                 Contact me
               </a>
             </div>
@@ -930,11 +929,7 @@
                 <a href="#projects" class="btn btn-info">
                   View my projects
                 </a>
-                <a
-                  href="mailto:jbuenvia@nd.edu"
-                  class="btn btn-info"
-                  target="_BLANK"
-                >
+                <a data-toggle="modal" data-target="#contactModal" href="/contact" class="btn btn-info marg-bot-05">
                   Contact me
                 </a>
               </div>
@@ -955,7 +950,7 @@
         </div>
       </footer>
       <!-- Contact form -->
-      <!-- <div class="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
+      <div class="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -965,12 +960,12 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <form id="contactForm">
+        <form id="contactForm" netlify>
           <div class="modal-body">
             <!-- Render a div for error and success messages -->
-      <!-- <div id="message"></div> -->
+      <div id="message"></div>
       <!-- Render the form fields -->
-      <!-- <div class="row">
+      <div class="row">
               <div class="col-12 col-md-6">
                 <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First"
                   required="true"></input>
@@ -993,7 +988,7 @@
         </form>
       </div>
     </div>
-  </div> -->
+  </div>
     </div>
 
     <!-- Javascripts -->
