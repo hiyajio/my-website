@@ -18,5 +18,6 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
 - [ ] Optimize to be PWA
+- [ ] Add Dark Mode feature
 
 ##
