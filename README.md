@@ -14,6 +14,7 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Add hamburger for mobile screen
 - [x] Possibly change hosting to Contentful + Netlify or Heroku/AWS
 - [x] Convert to React App through Gatsby
+- [ ] Connect 404 to Netlify hosting
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
 - [ ] Optimize to be PWA
