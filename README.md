@@ -16,6 +16,8 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Connect 404 to Netlify hosting
 - [x] Convert to React App through Gatsby
 
+---
+
 ## Notice
 
 This website is deprecated. New website converted to Gatsby and hosted on Netlify. Link to current website repo [here].
