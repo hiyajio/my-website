@@ -13,11 +13,11 @@ Application developed in HTML, SCSS (with Bootstrap), and JavaScript (jQuery). T
 - [x] Convert CSS to SCSS/Sass
 - [x] Add hamburger for mobile screen
 - [x] Change hosting to Netlify
-- [x] Convert to React App through Gatsby
 - [x] Connect 404 to Netlify hosting
-- [ ] Add websites to Projects section
-- [ ] Fix Contact modal
-- [ ] Optimize to be PWA
-- [ ] Add Dark Mode feature
+- [x] Convert to React App through Gatsby
 
-##
+## Notice
+
+This website is deprecated. New website converted to Gatsby and hosted on Netlify. Link to current website repo [here].
+
+[here]: https://github.com/lockjio/my-site
